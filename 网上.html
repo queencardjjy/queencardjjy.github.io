@@ -1,0 +1,83 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>乐队介绍</title>  
+  <style>  
+    body {  
+      font-family: Arial, sans-serif;  
+      margin: 0;  
+      padding: 20px;  
+    }  
+  
+    h1 {  
+      text-align: center;  
+    }  
+  
+    .band-container {  
+      max-width: 960px;  
+      margin: 0 auto;  
+    }  
+  
+    .band-info {  
+      background-color: #f5f5f5;  
+      padding: 20px;  
+      margin-bottom: 20px;  
+      border-radius: 5px;  
+    }  
+  
+    .band-name {  
+      font-weight: bold;  
+      font-size: 32px;  
+      margin-bottom: 10px;  
+      text-align: center;  
+    }  
+  
+    .band-description {  
+      margin-bottom: 10px;  
+    }  
+  
+    .band-members {  
+      list-style-type: none;  
+      padding: 0;  
+      display: flex;  
+      justify-content: space-around;  
+      flex-wrap: wrap;  
+    }  
+  
+    .band-member {  
+      flex: 0 0 calc(33.33% - 20px);  
+      margin-bottom: 20px;  
+      text-align: center;  
+    }  
+  
+    .band-member img {  
+      max-width: 100%;  
+      border-radius: 5px;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <div class="band-container">  
+    <h1>乐队介绍</h1>  
+      
+    <div class="band-info">  
+      <h2 class="band-name">乐队名称</h2>  
+      <p class="band-description">乐队简介：</p>  
+      <ul class="band-members">  
+        <li class="band-member">  
+          <img src="member1.jpg" alt="成员1">  
+          <p>成员1</p>  
+        </li>  
+        <li class="band-member">  
+          <img src="member2.jpg" alt="成员2">  
+          <p>成员2</p>  
+        </li>  
+        <li class="band-member">  
+          <img src="member3.jpg" alt="成员3">  
+          <p>成员3</p>  
+        </li>  
+      </ul>  
+    </div>  
+  </div>  
+</body>  
+</html>

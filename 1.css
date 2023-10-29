@@ -1,0 +1,74 @@
+body{
+    background-image: url("背景2.jpg");
+}
+#top{
+    height:100px;
+    background-color:#FF69B4;
+    border-bottom: 1px solid gray;  /* 底线 */
+    text-align:center;//水平居中
+}
+#top h1{
+    margin: 0 auto;  /* 居中对齐 */
+    padding:25px;
+    vertical-align:center;//垂直居中
+}
+#menu{
+    width: 200px;
+    margin: 0;
+    padding: 1em;
+    float: left;
+}
+#menu li{
+    color:#7B68EE;
+    font-size: 150%;
+}
+#menu a{
+    text-decoration: none;  
+}
+#content{
+    margin-left: 300px;
+    margin-right:100px;
+    border-left: 2px solid gray;
+    padding:1em;
+    max-width:100em; /* 最大宽度是几个字高 */
+}
+#content img {
+    border-radius:20px;//圆角图片
+}
+#content p{
+    font-style: italic;//斜体字
+    font-size: 130%;//字体大小
+}
+#band-container {  
+    max-width: 960px;  
+    margin: 0 auto;  
+    margin-left: 300px;
+    margin-right:100px;
+    border-left: 2px solid gray;
+    padding:1em;
+  }  
+
+#band-info {  
+    background-color: #fec3e4;  
+    padding: 20px;  
+    margin-bottom: 80px;  
+    border-radius: 50px;  
+  }  
+
+#band-members {  
+    list-style-type: none;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-around;  
+    flex-wrap: wrap;  
+  }  
+
+#band-member {  
+    margin-bottom: 20px;  
+    text-align: center;  
+  }  
+
+#band-member img {  
+    max-width: 30%;  
+    border-radius: 5px;  
+  }  
