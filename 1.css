@@ -19,11 +19,11 @@ body{
     float: left;
 }
 #menu li{
-    color:#7B68EE;
+    color:#998af4;
     font-size: 150%;
 }
 #menu a{
-    text-decoration: none;  
+    text-decoration: none; /*取消下划线*/ 
 }
 #content{
     margin-left: 300px;
@@ -34,6 +34,7 @@ body{
 }
 #content img {
     border-radius:20px;//圆角图片
+
 }
 #content p{
     font-style: italic;//斜体字
